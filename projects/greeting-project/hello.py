@@ -15,3 +15,11 @@ def greet_user():
     print(f"{greeting}, {name}! Welcome to Data Science.")
 
 
+def greet_user():
+    name = input("Enter your name: ")
+    major = input("What's your major? ")
+    year = input("What year are you in? ")
+    
+    print(f"\nHello, {name}!")
+    print(f"It's great to meet a {year}-year {major} major.")
+    print("Welcome to Data Science.")
