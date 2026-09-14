@@ -20,6 +20,6 @@ def greet_user():
     major = input("What's your major? ")
     year = input("What year are you in? ")
     
-    print(f"\nHello, {name}!")
-    print(f"It's great to meet a {year}-year {major} major.")
+    print("Hello, {name}! ")
+    print("It's great to meet a {year}-year {major} major. ")
     print("Welcome to Data Science.")
